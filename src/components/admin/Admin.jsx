@@ -13,7 +13,7 @@ function Admin() {
                 setUsers(data);
             });
             console.log(users);
-    }, []);
+    });
     const handlesocial=(media)=>{
         alert(media)
     }
