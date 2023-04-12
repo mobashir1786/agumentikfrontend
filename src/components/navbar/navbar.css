@@ -1,0 +1,44 @@
+.navbar{
+    width: 80%;
+    height: 60px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft{
+    font-size: 40px;
+    font-weight: 500;
+}
+.navleft{
+    font-size: 24px;
+}
+.navmiddle{
+    display: flex;
+    justify-content: center;
+}
+.navright{
+    display: flex;
+    justify-content: center;
+}
+.navitem{
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+}
+ul{
+    
+    list-style-type: none;
+}
+.loginbtn{
+    filter: opacity(100);
+    padding: 3px 10px;
+    border: 2px solid #E5E4E2;
+    border-radius: 7px;
+}
+.signupbtn{
+    background-image: linear-gradient(#728FCE,rgb(0, 145, 255),rgb(0, 76, 255),rgb(47, 22, 172));
+    padding: 5px 12px;
+    border-radius: 7px;
+}

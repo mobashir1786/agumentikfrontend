@@ -1,0 +1,107 @@
+.home {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.hometop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.hometopleft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hometopleftdiscover {
+    font-size: 3.7vw;
+    font-weight: 800;
+}
+
+.hometopleftdiscover>span {
+    background: -webkit-linear-gradient(#fa23bd, #19e3dc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hometopleftbuy {
+    font-size: 1.15vw;
+    color: rgb(181, 189, 189);
+    margin: 20px 0;
+}
+.hometopleftbtn{
+    display: flex;
+    padding: 0;
+}
+.hometopleftloginbtn{
+    filter: opacity(100);
+    padding: 5px 25px;
+    border: 2px solid #E5E4E2;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.hometopleftsignupbtn{
+    padding: 7px 27px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 20%;
+    background-image: linear-gradient(rgb(127, 23, 245),rgb(69, 69, 244),rgb(48, 48, 243),rgb(48, 48, 243),rgb(66, 66, 247),rgb(103, 103, 244));
+}
+ul{
+    list-style-type: none;
+}
+.hometopleftquentity{
+    display: flex;
+    margin: 20px 0;
+}
+.quentityall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+}
+.quentity{
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.hometopright>img {
+    width: 100%;
+}
+
+.homemiddle{
+    display: flex;
+    justify-content: space-between;
+}
+.homemiddlecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homemiddlecontenticon{
+    font-size: 2.5vw;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(127, 23, 245),rgb(69, 69, 244),rgb(48, 48, 243),rgb(48, 48, 243),rgb(66, 66, 247),rgb(103, 103, 244));
+
+}
+.homemiddlecontenttitle{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px;
+}
+.homemiddlecontenttext{
+    width: 80%;
+    color: rgb(181, 189, 189);
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,100 @@
+.loginpage {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincontent {
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContentRight {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(rgb(131, 91, 176),rgb(69, 69, 244),rgb(48, 48, 243),rgb(48, 48, 243),rgb(66, 66, 247),rgb(131, 91, 176));
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ExistUser{
+    width: 100%;
+    height: 50%;
+    /* background-color: aliceblue; */
+    border-radius: 8px;
+}
+.existuserhead{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.alredyMember{
+    font-size: 30px;
+    font-weight: 800px;
+    background: -webkit-linear-gradient(white, #07f5ed);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ExistUser>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dontHaveAcc{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+span{
+    cursor: pointer;
+}
+
+.eyeicon{
+    position: absolute;
+    right: 34%;
+    top: 52%;
+    color: black;
+}
+input{
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 30px;
+    padding: 2px;
+    color: rgb(13, 118, 13);
+    font-size: 18px;
+}
+.loginbtn{
+    width: 70%;
+    height: 50px;
+    border: none;
+    background-color: rgb(6, 78, 6);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.newuser{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.ul{
+    list-style-type: none;
+}
+.createaccount{
+    text-decoration: none;
+    color: white;
+}
